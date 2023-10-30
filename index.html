@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+         nav {
+            background-color: green;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+        }
+
+        h1 {
+            color: white;
+            margin: 10px;
+        }
+                .frame {
+            width: 500px;
+            height: 900px;
+            border: 1px solid #000;
+            padding: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            margin-top: 250px;
+        }
+    @media (max-width: 767px) 
+    {
+    .frame {
+        margin-top: 50px;
+    }
+}
+    </style>
+</head>
+<body>
+<nav>
+    <h1>Faiba Shop</h1>
+</nav>
+        /* Style for the frame */
+        .frame {
+            align="center";
+            width: 500px;
+            height: 700px;
+            border: 1px solid #000;
+            padding: 20px;
+                
+        }
+    </style>
+</head>
+<body>
+
+<div class="frame"  align="center">
+    <img src="faiba.png" style="width: 200px; height: 200px;">
+    <h3>Fill in your details below and an Agent <BR>will reach out to you</BR> </h3>
+    <form action="mailto:patohict@gmail.com" method="post" enctype="text/plain">
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="fname">Email Address:</label><br>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="fname">contact Number:</label><br>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="fname">Location:</label><br>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="fname">Phone Model:</label><br>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="fname"><B>Choose Service:</B></label><br>
+        <input type="radio" id="Faiba Mobile" name="Faiba" value="Faiba Mobile">
+        <label for="male">Faiba Mobile</label>
+        <input type="radio" id="Faiba Fixed" name="Faiba" value="Faiba Fixed">
+        <label for="female">Faiba Fixed</label><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <img src="photo.jpg" style="width: 400px; height: 200px;">
+</div>
+</body>
+</html>
+
+
+
+
+
